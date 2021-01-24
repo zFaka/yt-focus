@@ -28,6 +28,7 @@ ytd-page-manager.ytd-app{
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
+    justify-content:center;
 }
 
 .ytl-home-sidebar{
@@ -120,12 +121,12 @@ html[dark='true'] .ytl-container{
     color: rgba(0,0,0,0.8);
     opacity: 0.7;
     font-size: 16px;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.3s ease;
 }
 
 .ytl-container p:hover{
     opacity: 1.0;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.13s ease;
 }
 
 .ytl-home-grid{
