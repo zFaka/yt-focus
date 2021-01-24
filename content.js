@@ -2,9 +2,7 @@ var home = document.querySelector("ytd-browse.ytd-page-manager[page-subtype='hom
 
 if (home != null) {
     home.innerHTML = `<div class='ytl-home'>
-                <div class='ytl-home-sidebar'>
-                    <h3>Focus</h3>
-                </div>
+                <div class='ytl-home-sidebar'></div>
 
                 <div class='ytl-container'>
                     <div class='ytl-home-grid'>
