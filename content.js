@@ -2,7 +2,6 @@ var home = document.querySelector("ytd-browse.ytd-page-manager[page-subtype='hom
 
 if (home != null) {
     home.innerHTML = `<div class='ytl-home'>
-                <!-- <div class='ytl-home-sidebar'></div> -->
 
                 <div class='ytl-container'>
                     <div class='ytl-home-grid'>
@@ -76,9 +75,12 @@ function insertNavbar(currNavbar = null){
 
     currNavbar.insertAdjacentHTML("afterbegin", `
         <div class='ytl-nav'>
-        <!--
+
             <div class='ytl-nav-menu'>
                 <a href='https://www.youtube.com/'><div class='ytl-nav-item'><span>Home</span></div></a>
+                <a href='https://www.youtube.com/feed/subscriptions'><div class='ytl-nav-item'><span>Subscriptions</span></div></a>
+                <a href='https://www.youtube.com/playlist?list=WL'><div class='ytl-nav-item'><span>Watch Later</span></div></a>
+                <a href='https://www.youtube.com/feed/library'><div class='ytl-nav-item'><span>Library</span></div></a>
             </div>
 
 <label for='ytl-nm'>
@@ -90,7 +92,6 @@ function insertNavbar(currNavbar = null){
         </svg>
     </yt-icon>
 </label>
-      -->
 
         </div>
     `);
