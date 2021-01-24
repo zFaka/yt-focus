@@ -247,8 +247,6 @@ ytd-searchbox#search, #search-form.ytd-searchbox{
 
 ytd-masthead[dark]{
     background-color: #121212!important;
-    display:flex;
-    justify-content:space-between;
 }
 
 ytd-masthead[dark] .ytd-searchbox#container{
@@ -342,6 +340,10 @@ ytd-masthead[dark] .ytl-nav-item{
     color: #fff;
 }
 
+yt-nav-center {
+    display:flex;
+    justify-content:space-between;
+}
 /* PLAYLIST PAGE */
 
 ytd-playlist-sidebar-renderer{
