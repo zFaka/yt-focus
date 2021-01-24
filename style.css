@@ -162,6 +162,7 @@ html[dark='true'] .ytl-home-grid-item:hover{
     color: rgba(0,0,0,0.4);
     white-space: nowrap;
     margin-top: 8px;
+    user-select: none;
 }
 
 html[dark='true'] .ytl-container p, html[dark='true'] .ytl-container h3, html[dark='true'] .ytl-home-grid-item-text{
