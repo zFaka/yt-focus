@@ -344,6 +344,10 @@ ytd-masthead[dark] .ytl-nav-item{
     justify-content:space-between;
 }
 
+#voice-search-button .ytd-masthead div{
+    display: none;
+}
+
 /* PLAYLIST PAGE */
 
 ytd-playlist-sidebar-renderer{
