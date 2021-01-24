@@ -133,7 +133,6 @@ html[dark='true'] .ytl-container{
     display: inline-flex;
     margin-bottom: auto;
     flex-flow: row nowrap;
-    border-left: 1px solid rgba(0,0,0,0.2);
 }
 
 .ytl-home-grid a{
