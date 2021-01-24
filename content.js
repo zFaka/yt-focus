@@ -9,17 +9,17 @@ if (home != null) {
 
 
                         <a href='https://www.youtube.com/feed/subscriptions'><div class='ytl-home-grid-item'>
-                                <div class='ytl-home-grid-item-text'><span>Subscriptions</span></div>
+                                <div class='ytl-home-grid-item-text'><span>Subs</span></div>
                         </div></a>
 
 
                         <a href='https://www.youtube.com/playlist?list=WL'><div class='ytl-home-grid-item'>
-                                <div class='ytl-home-grid-item-text'><span>Watch Later</span></div>
+                                <div class='ytl-home-grid-item-text'><span>WtchLtr</span></div>
                         </div></a>
 
 
                         <a href='https://www.youtube.com/feed/library'><div class='ytl-home-grid-item'>
-                                <div class='ytl-home-grid-item-text'><span>Library</span></div>
+                                <div class='ytl-home-grid-item-text'><span>Lbry</span></div>
                         </div></a>
                     </div>
                 </div>
