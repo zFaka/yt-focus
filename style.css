@@ -247,6 +247,8 @@ ytd-searchbox#search, #search-form.ytd-searchbox{
 
 ytd-masthead[dark]{
     background-color: #121212!important;
+    display:flex;
+    justify-content:space-between;
 }
 
 ytd-masthead[dark] .ytd-searchbox#container{
