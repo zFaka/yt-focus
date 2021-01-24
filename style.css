@@ -1,0 +1,346 @@
+
+
+a{
+    text-decoration: none;
+}
+
+/* HOMEPAGE */
+/* HOMEPAGE */
+/* HOMEPAGE */
+
+.ytd-browse[page-subtype='home']{
+    display: none;
+}
+
+app-drawer#guide{
+    display: none!important;
+}
+
+html:not([dark='true']) ytd-app{
+    background-color: #fff;
+}
+
+ytd-page-manager.ytd-app{
+    margin-left: 0!important;
+}
+
+.ytl-home{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.ytl-home-sidebar{
+    width: 417px;
+    background-color: #fafafa;
+    flex: 0 0 417px;
+    height: calc(100vh - 56px);
+    padding: 24px 32px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    font-family: 'Roboto Mono';
+}
+
+.ytl-home-sidebar h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.ytl-home-sidebar a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+
+html[dark='true']  .ytl-home-sidebar a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.ytl-home-sidebar p{
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+}
+
+.ytl-home-sidebar p:hover{
+    opacity: 1.0;
+}
+
+html[dark='true'] .ytl-home-sidebar{
+    background-color: #1A1A1A;
+    color: rgba(255,255,255,0.6);
+}
+
+.ytl-sidebar-logo{
+    width: 96px;
+    margin-bottom: auto;
+}
+
+.ytl-sidebar-logo img{
+    width: 100%;
+}
+
+.ytl-home-sidebar, .ytl-container{
+    box-sizing: border-box;
+}
+
+.ytl-container{
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 880px;
+    padding: 24px 64px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+html[dark='true'] .ytl-container{
+    color: #fff;
+}
+
+.ytl-container h1{
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.ytl-container h3{
+    font-size: 24px;
+    color: rgba(0,0,0,0.4);
+    font-family: 'Roboto Mono';
+}
+
+.ytl-container p{
+    margin: 8px 0;
+    color: rgba(0,0,0,0.8);
+    opacity: 0.7;
+    font-size: 16px;
+    transition: opacity 0.2s ease;
+}
+
+.ytl-container p:hover{
+    opacity: 1.0;
+    transition: opacity 0.2s ease;
+}
+
+.ytl-home-grid{
+    display: inline-flex;
+    margin-bottom: auto;
+    flex-flow: row nowrap;
+    border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+.ytl-home-grid a{
+    flex: 0 0 33.3%;
+}
+
+.ytl-home-grid-item{
+    padding: 32px;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ytl-home-grid-item:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+html[dark='true'] .ytl-home-grid-item:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.ytl-home-grid-item-text{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.4);
+    white-space: nowrap;
+    margin-top: 8px;
+}
+
+html[dark='true'] .ytl-container p, html[dark='true'] .ytl-container h3, html[dark='true'] .ytl-home-grid-item-text{
+    color: rgba(255,255,255,0.8);
+}
+
+html[dark='true'] .ytl-home-grid-item-icon svg{
+    fill: #fff;
+}
+
+
+html[dark='true'] .ytl-home-grid{
+    border-color: rgba(255,255,255,0.2);
+}
+
+.ytl-home-grid-item-icon{
+    width: 32px;
+    opacity: 0.4;
+}
+
+/* WATCH PAGE */
+/* WATCH PAGE */
+/* WATCH PAGE */
+
+#primary.ytd-watch-flexy{
+    max-width: 1000px!important;
+}
+
+#primary-inner{
+    border-bottom: 0;
+}
+
+#secondary{
+    display: none;
+}
+
+.ytp-chrome-bottom{
+    width: calc(100% - 24px)!important;
+}
+
+.ytp-iv-video-content, .html5-video-container, .html5-video-container video{
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.html5-video-container video{
+    left: 0!important;
+    top: 0!important;
+}
+
+ytd-comments#comments:not(.ytl-show){
+    display: none;
+}
+
+/* TOPBAR */
+/* TOPBAR */
+/* TOPBAR */
+
+#buttons ytd-topbar-menu-button-renderer:nth-of-type(1):not(.ytl-show), #buttons ytd-topbar-menu-button-renderer.ytd-masthead:nth-of-type(2):not(.ytl-show){
+    display: none!important;
+}
+
+ytd-mini-guide-renderer, yt-icon-button#guide-button, #buttons ytd-notification-topbar-button-renderer.ytd-masthead:not(.ytl-show){
+    display: none!important;
+}
+
+ytd-topbar-logo-renderer#logo{
+    display: none!important;
+}
+
+ytd-searchbox#search, #search-form.ytd-searchbox{
+    display: block;
+    margin-left: 0!important;
+}
+
+.ytd-searchbox#container{
+    border: none!important;
+    border-bottom: 1px solid #e5e5e5!important;
+    box-shadow: none!important;
+    padding-left: 0!important;
+}
+
+ytd-masthead[dark]{
+    background-color: #121212!important;
+}
+
+ytd-masthead[dark] .ytd-searchbox#container{
+    border-color: #444444!important;
+    background-color: rgba(0,0,0,0)!important;
+}
+
+button.ytd-searchbox{
+    display: none!important;
+}
+
+ytd-searchbox[mode=legacy][has-focus] #container.ytd-searchbox, ytd-searchbox[mode=legacy-centered][has-focus] #container.ytd-searchbox{
+    box-shadow: none!important;
+}
+
+button#avatar-btn{
+    padding: 0!important;
+}
+
+button#avatar-btn yt-img-shadow, button#avatar-btn .yt-img-shadow{
+    margin: 0!important;
+}
+
+.ytl-nav{
+    font-size: 14px;
+    color: #888888;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-right: 16px;
+}
+
+.ytl-nav label{
+    cursor: pointer;
+    line-height: 56px;
+    opacity: 0.4;
+}
+
+.ytl-nav label:hover{
+    opacity: 0.9;
+}
+
+.ytl-nav-menu{
+    position: fixed;
+    top: 11px;
+    left: 56px;
+    z-index: 2051;
+    visibility: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.4) 0px 8px 10px -5px;
+    background-color: #fff;
+    padding: 8px 0;
+}
+
+ytd-masthead[dark] .ytl-nav-menu{
+    background-color: #242424;
+}
+
+.ytl-nav-menu.ytl-show{
+    visibility: visible;
+}
+
+.ytl-nav-menu.ytl-show ~ label{
+    opacity: 0.7;
+}
+
+.ytl-nav-item{
+    padding: 0 16px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.ytl-nav-item:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+ytd-masthead[dark] .ytl-nav-item:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.ytl-nav-item{
+    color: rgb(10,10,10);
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ytd-masthead[dark] .ytl-nav-item{
+    color: #fff;
+}
+
+/* PLAYLIST PAGE */
+
+ytd-playlist-sidebar-renderer{
+    left: 0!important;
+}
