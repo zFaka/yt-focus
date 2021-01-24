@@ -340,10 +340,11 @@ ytd-masthead[dark] .ytl-nav-item{
     color: #fff;
 }
 
-yt-nav-center {
+#container .ytd-masthead div{
     display:flex;
     justify-content:space-between;
 }
+
 /* PLAYLIST PAGE */
 
 ytd-playlist-sidebar-renderer{
